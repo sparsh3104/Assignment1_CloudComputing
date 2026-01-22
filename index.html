@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Computing - Interactive Guide</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">☁️ CloudHub</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#basics" class="nav-link">Basics</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#models" class="nav-link">Models</a></li>
+                <li><a href="#benefits" class="nav-link">Benefits</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle" title="Toggle Dark/Light Mode">
+                <span class="theme-icon">🌙</span>
+            </button>
+            <button class="rain-toggle" id="rainToggle" title="Toggle Rain Effect">
+                <span class="rain-icon">🌧️</span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Student Details -->
+    <section class="student-details">
+        <div class="details-container">
+            <h2>Sparsh Gandhi</h2>
+            <div class="details-grid">
+                <div class="detail-item">
+                    <span class="detail-label">PRN No.</span>
+                    <span class="detail-value">123B1B113</span>
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Division</span>
+                    <span class="detail-value">B</span>
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Subject</span>
+                    <span class="detail-value">Cloud Computing</span>
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Assignment</span>
+                    <span class="detail-value">1</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Welcome to Cloud Computing</h1>
+            <p class="hero-subtitle">Explore the future of technology and digital transformation</p>
+            <div class="cloud-animation">
+                <div class="cloud cloud1"></div>
+                <div class="cloud cloud2"></div>
+                <div class="cloud cloud3"></div>
+            </div>
+            <button class="cta-button">Explore Now</button>
+        </div>
+    </section>
+
+    <!-- Basics Section -->
+    <section id="basics" class="basics-section">
+        <h2 class="section-title">What is Cloud Computing?</h2>
+        <div class="basics-container">
+            <div class="basic-card fade-in">
+                <div class="card-icon">💾</div>
+                <h3>Storage</h3>
+                <p>Store your data on remote servers accessible from anywhere</p>
+            </div>
+            <div class="basic-card fade-in">
+                <div class="card-icon">⚡</div>
+                <h3>Computing Power</h3>
+                <p>Access powerful computing resources on demand</p>
+            </div>
+            <div class="basic-card fade-in">
+                <div class="card-icon">🔒</div>
+                <h3>Security</h3>
+                <p>Enterprise-grade security and data protection</p>
+            </div>
+            <div class="basic-card fade-in">
+                <div class="card-icon">💰</div>
+                <h3>Cost Efficient</h3>
+                <p>Pay only for what you use, no upfront investment</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cloud Services Section -->
+    <section id="services" class="services-section">
+        <h2 class="section-title">Cloud Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-header">
+                    <h3>IaaS</h3>
+                    <span class="badge">Infrastructure</span>
+                </div>
+                <p>Infrastructure as a Service provides virtualized computing resources over the internet.</p>
+                <ul class="features-list">
+                    <li>✓ Virtual Machines</li>
+                    <li>✓ Storage Systems</li>
+                    <li>✓ Networking</li>
+                </ul>
+            </div>
+
+            <div class="service-card">
+                <div class="service-header">
+                    <h3>PaaS</h3>
+                    <span class="badge">Platform</span>
+                </div>
+                <p>Platform as a Service provides development environments in the cloud.</p>
+                <ul class="features-list">
+                    <li>✓ Development Tools</li>
+                    <li>✓ Databases</li>
+                    <li>✓ Middleware</li>
+                </ul>
+            </div>
+
+            <div class="service-card">
+                <div class="service-header">
+                    <h3>SaaS</h3>
+                    <span class="badge">Software</span>
+                </div>
+                <p>Software as a Service delivers applications over the internet.</p>
+                <ul class="features-list">
+                    <li>✓ Web Applications</li>
+                    <li>✓ Productivity Tools</li>
+                    <li>✓ Collaboration</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cloud Models Section -->
+    <section id="models" class="models-section">
+        <h2 class="section-title">Cloud Deployment Models</h2>
+        <div class="models-container">
+            <div class="model-card interactive-card">
+                <div class="model-icon">🏢</div>
+                <h3>Public Cloud</h3>
+                <p>Services offered by third-party providers over the internet, available to anyone.</p>
+                <div class="model-details">
+                    <p><strong>Providers:</strong> AWS, Azure, Google Cloud</p>
+                    <p><strong>Cost:</strong> Pay-as-you-go</p>
+                </div>
+            </div>
+
+            <div class="model-card interactive-card">
+                <div class="model-icon">🔐</div>
+                <h3>Private Cloud</h3>
+                <p>Dedicated cloud infrastructure for a single organization with enhanced security.</p>
+                <div class="model-details">
+                    <p><strong>Control:</strong> Full control over infrastructure</p>
+                    <p><strong>Cost:</strong> Higher upfront investment</p>
+                </div>
+            </div>
+
+            <div class="model-card interactive-card">
+                <div class="model-icon">🌉</div>
+                <h3>Hybrid Cloud</h3>
+                <p>Combination of public and private clouds for flexible resource management.</p>
+                <div class="model-details">
+                    <p><strong>Flexibility:</strong> Best of both worlds</p>
+                    <p><strong>Complexity:</strong> Requires management</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="benefits-section">
+        <h2 class="section-title">Why Choose Cloud Computing?</h2>
+        <div class="benefits-container">
+            <div class="benefit-item">
+                <div class="benefit-number">01</div>
+                <h3>Scalability</h3>
+                <p>Easily scale resources up or down based on your needs</p>
+            </div>
+            <div class="benefit-item">
+                <div class="benefit-number">02</div>
+                <h3>Reliability</h3>
+                <p>99.99% uptime guarantees with redundant systems</p>
+            </div>
+            <div class="benefit-item">
+                <div class="benefit-number">03</div>
+                <h3>Accessibility</h3>
+                <p>Access your applications from anywhere in the world</p>
+            </div>
+            <div class="benefit-item">
+                <div class="benefit-number">04</div>
+                <h3>Disaster Recovery</h3>
+                <p>Automated backups and disaster recovery solutions</p>
+            </div>
+            <div class="benefit-item">
+                <div class="benefit-number">05</div>
+                <h3>Performance</h3>
+                <p>Optimized infrastructure for maximum performance</p>
+            </div>
+            <div class="benefit-item">
+                <div class="benefit-number">06</div>
+                <h3>Updates</h3>
+                <p>Automatic updates and maintenance without downtime</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="stats-section">
+        <h2 class="section-title">Cloud Computing Growth</h2>
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-number" data-target="85">0</div>
+                <p>% Market Growth</p>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" data-target="2.7">0</div>
+                <p>Trillion Market Value</p>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" data-target="92">0</div>
+                <p>% Enterprise Adoption</p>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" data-target="1.5">0</div>
+                <p>Million New Jobs</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Comparison -->
+    <section class="comparison-section">
+        <h2 class="section-title">Traditional vs Cloud Computing</h2>
+        <div class="comparison-table">
+            <div class="comparison-row header-row">
+                <div class="comparison-col">Aspect</div>
+                <div class="comparison-col">Traditional IT</div>
+                <div class="comparison-col">Cloud Computing</div>
+            </div>
+            <div class="comparison-row">
+                <div class="comparison-col">Capital Cost</div>
+                <div class="comparison-col">⚠️ High</div>
+                <div class="comparison-col">✅ Low</div>
+            </div>
+            <div class="comparison-row">
+                <div class="comparison-col">Maintenance</div>
+                <div class="comparison-col">⚠️ Extensive</div>
+                <div class="comparison-col">✅ Minimal</div>
+            </div>
+            <div class="comparison-row">
+                <div class="comparison-col">Scalability</div>
+                <div class="comparison-col">⚠️ Limited</div>
+                <div class="comparison-col">✅ Unlimited</div>
+            </div>
+            <div class="comparison-row">
+                <div class="comparison-col">Accessibility</div>
+                <div class="comparison-col">⚠️ On-site</div>
+                <div class="comparison-col">✅ Anywhere</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2 class="section-title">Get In Touch</h2>
+        <form class="contact-form" id="contactForm">
+            <div class="form-group">
+                <input type="text" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="submit-button">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Collaborators Section -->
+    <section id="collaborators" class="collaborators-section">
+        <h2 class="section-title">Add Collaborators</h2>
+        
+        <div class="collaborator-form-wrapper">
+            <form class="collaborator-form" id="collaboratorForm">
+                <div class="form-group">
+                    <input type="text" id="collabName" placeholder="Collaborator Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="collabPRN" placeholder="PRN No.">
+                </div>
+                <div class="form-group">
+                    <input type="text" id="collabRole" placeholder="Role/Position" required>
+                </div>
+                <button type="submit" class="add-collaborator-btn">Add Collaborator</button>
+            </form>
+        </div>
+
+        <div class="collaborators-list" id="collaboratorsList">
+            <p class="no-collaborators">No collaborators added yet. Add your friends!</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2026 CloudHub. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" class="social-link">Twitter</a>
+                <a href="#" class="social-link">LinkedIn</a>
+                <a href="#" class="social-link">GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
